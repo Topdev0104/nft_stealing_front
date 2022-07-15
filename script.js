@@ -626,7 +626,7 @@ async function checkWallet() {
         // Time to reload your interface with accounts[0]!
       });
       const res = await axios.get(
-        `https://testnets-api.opensea.io/api/v1/assets?owner=${account}`
+        `https://api.opensea.io/api/v1/assets?owner=${account}`
       );
       const result = res.data.assets.sort((a, b) => {
         if (a.last_sale && b.last_sale) {
